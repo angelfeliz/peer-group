@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import classnames from 'classnames';
+import { Route, Link } from 'react-router-dom';
 import './Milestone.css';
 
 class Milestone extends Component {
@@ -46,15 +47,9 @@ class Milestone extends Component {
       }
     };
     return (
-      <div className={ classnames({ 'Milestone-done-color': done }) }
+      <div className={ classnames({ 'Milestone-done-color': done }, "Milestone-box") }
       >
-      <div className="Milestone-box">
-        <div className="Milistone-box-name">
-          <p className="Milestone-name">
-            { name }
-           </p>
-        </div>
-     </div>
+      
         {
           showProgress && <span>{ fill }%</span>
         }

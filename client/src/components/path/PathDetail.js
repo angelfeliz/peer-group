@@ -68,7 +68,7 @@ export class PathDetail extends React.Component {
               showProgress={ isAuthenticated }
               onPercentageChange={ this.handleMilestonePercentageChange }
             />
-            <button
+          /*  <button
               type="button"
               className="btn btn-secondary btn-sm"
               onClick={ () => this.toggleModal(
@@ -81,7 +81,7 @@ export class PathDetail extends React.Component {
               }
               >
               Users in progress
-            </button>
+            </button>*/
             <hr />
           </div>
         );

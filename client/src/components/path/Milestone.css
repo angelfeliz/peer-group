@@ -87,11 +87,12 @@
   cursor: pointer;
 }
 .Milestone-box {
-  display: flex;
-}
-.Milistone-box-name {
-  display: table;
   border: 1px solid black;
-  height: 30vh;
-  width: 30%;
+  padding:3%;
+}
+.Milestone_no-link-style{
+  color: black;
+}
+.Milestone_no-link-style:hover{
+  text-decoration: none;
 }
